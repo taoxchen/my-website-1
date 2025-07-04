@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tao Chen | Portfolio</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Tao Chen</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id = "home">
+    <section class="hero">
+      <h2>Hello, I'm <span class="typing"></span><span class = "add-typing">|</span></h2>
+      <p>Rising Sophomore @ Williams | Math & CS</p>
+    </section>
+  </section>
+
+  <section id="about" class = "about-section">
+    <h2>About Me</h2>
+    <p>I'm a rising sophomore at Williams College, majoring in Mathematics and Computer Science. I have a passion for coding and problem-solving, and I'm always eager to learn new technologies.</p>
+    <p>My journey in tech started with a simple curiosity about how things work, and it has grown into a deep love for creating software that makes a difference.</p>
+    <p>When I'm not coding, you can find me exploring the outdoors, reading, or playing video games.</p>
+  </section>
+
+  <section id="projects" class = "projects-section"> 
+    <h2>Project</h2>
+    <div class="project-cards">
+      <div class="card">
+        <h3>Weather App</h3>
+        <p>A weather forecasting app using OpenWeather API and vanilla JS.</p>
+        <a href="https://github.com/taoxchen/weather-app" target="_blank">View on GitHub</a>
+      </div>
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>This website! Built with HTML, CSS, and JS as a learning project.</p>
+        <a href="#">View Code</a>
+
+        <!-- maybe have a slider like amirs?-->
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class = "contact-section"> 
+    <h2>Contact Me</h2>
+    <p>I'm here to help you bring your ideas to life!</p>
+    <form>
+      <input type="text" placeholder="Your Name" required/>
+      <input type="email" placeholder="YourEmail@gmail.com" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>   
+
+  <footer>
+    <p>&copy; 2025 Tao Chen. All rights reserved.</p>
+    <div class="social-links">
+      <a href="https://github.com/taoxchen" target="_blank">
+        <div class="icon github">
+            <img src ="assets/github.png" alt = "github icon" />
+        </div>
+      </a>
+      <a href="https://www.linkedin.com/in/tao-chenn/" target="_blank">
+        <div class="icon github">
+            <img src ="assets/link.png" alt = "linkedin icon" />
+        </div>
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
